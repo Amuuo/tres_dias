@@ -62,14 +62,15 @@ input{
   border-radius: 12px;
   font-family: 'Montserrat';
   font-weight: bold;
-  height: 50px;
+  height: 65px;
+  width: 200px;
   background-image: linear-gradient(#A1CC8F, #A1CC8F, #59993D);
 }
 
 
 
 #links_grid_container { 
-    grid-row-gap: 25px;
+    grid-row-gap: 40px;
     align-items: center;
     display: grid;
     grid-row: 3;                   
@@ -98,7 +99,7 @@ input{
 
 
 #page {
-    background-image: linear-gradient(#fafafa, #E2FFD5, #AFEDDB, #f4f4f4,#f4f4f4, #e1e1e1);
+    background-image: linear-gradient(/*#fafafa,*/#f3f3f3, #E2FFD5, #E2FFD5, #AFEDDB, #AFEDDB,#f4f4f4,#f4f4f4, #e1e1e1);
     display: grid;
     width: 100vw;
     height: 100vh;  
