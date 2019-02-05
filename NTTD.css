@@ -98,7 +98,7 @@ input{
 
 
 #page {
-    background-image: linear-gradient(#fafafa, #E2FFD5, #AFEDDB, #f4f4f4, #e1e1e1);
+    background-image: linear-gradient(#fafafa, #E2FFD5, #AFEDDB, #f4f4f4,#f4f4f4, #e1e1e1);
     display: grid;
     width: 100vw;
     height: 100vh;  
