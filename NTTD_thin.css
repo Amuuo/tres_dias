@@ -44,9 +44,12 @@ body {
     0% {
         opacity: 0; 
         transform: translateY(100px) scaleY(0.01);
+        border-radius: 500px;
     }
     40% {
         opacity: 0;
+        transform: translateY(100px) scaleY(0.01);
+        
     }
 }
 

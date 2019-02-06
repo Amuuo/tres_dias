@@ -49,10 +49,11 @@ body {
 }
 
 @keyframes image_ani {
-    from {
+    0% {
         opacity: 0; 
-        transform: translateX(-150px)
-    }
+        transform: translateX(-150px) ;
+        border-radius: 100px;
+    }    
 
 }
 
@@ -150,8 +151,10 @@ input:hover{
 .image{
     animation: image_ani 1.25s cubic-bezier(0.075, 0.82, 0.165, 1);
     -webkit-animation: image_ani 1.25s cubic-bezier(0.075, 0.82, 0.165, 1);
+    /*
     animation-delay: 0.05s;
     -webkit-animation-delay: 0.05s;
+    */
     animation-fill-mode: backwards;
     -webkit-animation-fill-mode: backwards;
     border-top-right-radius: 15px;
