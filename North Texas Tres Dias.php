@@ -2,7 +2,9 @@
 <html>
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">  
-<link href="NTTD.css" rel="stylesheet">
+<link href="NTTD_large.css" rel="stylesheet">
+<link href="NTTD_mid.css" rel="stylesheet">
+<link href="NTTD_thin.css" rel="stylesheet">
 
 <head>
   <title>North Texas Tres Dias</title>
@@ -10,6 +12,7 @@
 </head>
 
 <body>  
+  
     <div id="header_container">
       <div id="header">
         <div  id="header_child"><img class="logo" src="logo.png"></div>
