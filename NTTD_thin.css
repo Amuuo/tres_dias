@@ -97,6 +97,7 @@ a {
     text-align: center;
     grid-template-rows: auto auto;    
     grid-template-columns: 1fr;    
+    justify-content: center;
     display: grid;            
 }
 
@@ -121,7 +122,8 @@ input:hover{
     box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, .6);
 }
 
-#links_grid_container {      
+#links_grid_container { 
+    justify-content: center;     
     width: 100%;
     align-items: center;
     height: 100%;
