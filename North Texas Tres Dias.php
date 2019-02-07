@@ -5,7 +5,7 @@
 <link href="NTTD_large.css" rel="stylesheet">
 <link href="NTTD_mid.css" rel="stylesheet">
 <link href="NTTD_thin.css" rel="stylesheet">
-
+<meta name="viewport" content="width=device-width, initial-scale=3.0">
 <head>
   <title>North Texas Tres Dias</title>
   <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
