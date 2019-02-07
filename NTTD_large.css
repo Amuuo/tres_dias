@@ -1,6 +1,6 @@
 
 
-@media all and (min-width:800px) {
+@media screen and (min-width:800px) {
 
 body {
     background-image: linear-gradient(#f3f3f3, #E8FFC6,#E8FFC6, #D9FFA2, #D9FFA2, 
@@ -159,6 +159,7 @@ input:hover{
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;  
     width: 100%;
+    max-height: 90%;
 }
 
 .logo {
