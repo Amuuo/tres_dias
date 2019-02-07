@@ -51,8 +51,9 @@
     }
     
     a {
-    color: #e0e0e0;
-    -webkit-text-fill-color: #FFFFCC; 
+        font-family: 'Montserrat';
+        color: #e0e0e0;
+        -webkit-text-fill-color: #FFFFCC; 
     }
     
     #header_container {  
@@ -150,6 +151,9 @@
     }
     
     #main_link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         font-family: 'Montserrat';
         font-weight: bold;                
         font-size: 10pt;         

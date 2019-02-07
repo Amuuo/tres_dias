@@ -55,6 +55,7 @@
     
     
     a {
+        font-family: 'Montserrat';
         color: #e0e0e0;
         -webkit-text-fill-color: #FFFFCC; 
     }
@@ -199,6 +200,9 @@
     }     
     
     #main_link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         animation: border_ani 1s cubic-bezier(0.165, 0.84, 0.44, 1);
         animation-delay: 0.65s;
         -webkit-animation: border_ani 1s cubic-bezier(0.165, 0.84, 0.44, 1);
