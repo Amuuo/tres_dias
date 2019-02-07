@@ -11,7 +11,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 </head>
 
-<body>  
+<body
   
     <div id="header_container">
       <div id="header">
@@ -21,13 +21,13 @@
     </div>  
     <div id="links_grid_container">
       <div id="links_grid">
-        <div class="lk" id="main_link"><a href="https://www.nttd.org/about.htm">About</a></div>
-        <div class="lk" id="main_link"><a href="https://www.nttd.org/faq.htm">FAQ</a></div>
-        <div class="lk" id="main_link"><a href="https://www.nttd.org/apps.htm">Applications</a></div>
-        <div class="lk" id="main_link"><a href="https://www.nttd.org/boardmembers.asp">Board of Directors</a></div>
-        <div class="lk" id="main_link"><a href="https://www.nttd.org/map.htm">Directions</a></div>
-        <div class="lk" id="main_link"><a href="https://www.nttd.org/contact.htm">Contact</a></div>
-        <div class="lk" id="main_link"><a href="https://www.nttd.org/Calendar.asp">Calendar</a></div>
+        <a id="main_link" href="https://www.nttd.org/about.htm">About</a>
+        <a id="main_link" href="https://www.nttd.org/faq.htm">FAQ</a>
+        <a id="main_link" href="https://www.nttd.org/apps.htm">Applications</a>
+        <a id="main_link" href="https://www.nttd.org/boardmembers.asp">Board of Directors</a>
+        <a id="main_link" href="https://www.nttd.org/map.htm">Directions</a>
+        <a id="main_link" href="https://www.nttd.org/contact.htm">Contact</a>
+        <a id="main_link" href="https://www.nttd.org/Calendar.asp">Calendar</a>
       </div>      
         <form class="submit_button" action="https://www.nttd.org/login.asp" type="submit" title="Default.html">        
           <input type="submit" value="Community Login">         
