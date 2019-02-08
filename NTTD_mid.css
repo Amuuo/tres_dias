@@ -13,7 +13,7 @@
         grid-auto-rows: auto auto auto;
         margin: 20% 5% 20% 5%;
         padding: 5% 2.5% 20% 2.5%;
-        grid-gap: 30px;
+        grid-gap: 4%;
     }
     
     @keyframes link_ani {
