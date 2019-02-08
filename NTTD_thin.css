@@ -56,7 +56,6 @@
 
     .header_grid{   
         width: 100%;
-        
         box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, .6);
         background-image: linear-gradient(  
         #e0edbe,#FFFFCC,#FFFFCC, 
@@ -118,7 +117,7 @@
     
 
     
-    .navagation_container {      
+    .navigation_container {      
         width: 90%;
         align-items: center;
         height: 100%;
