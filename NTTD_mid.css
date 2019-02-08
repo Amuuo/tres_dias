@@ -5,12 +5,15 @@
         background-image: linear-gradient(#f3f3f3, #E8FFC6,#E8FFC6, #D9FFA2, #D9FFA2, 
                                         #E8FFC6, #FFFCDF,#FFFCDF,
                                         #f4f4f4, #e1e1e1);
-        min-width: 100vw;
-        min-height: 100vh;  
+        size: auto;
         display: grid;    
-        grid-template-columns: minmax(auto,6vw) minmax(350px, auto) minmax(auto, 30vw) minmax(auto,6vw);
-        grid-template-rows: 3fr minmax(250px,auto) minmax(250px,auto) 6fr;                
-        grid-column-gap: 25px;  
+        grid-template-areas: "hd tbr"
+                             "sb tbr";
+        grid-auto-columns: auto auto;
+        grid-auto-rows: auto auto auto;
+        margin: 20% 5% 20% 5%;
+        padding: 5% 2.5% 20% 2.5%;
+        grid-gap: 30px;
     }
     
     @keyframes link_ani {
@@ -69,8 +72,7 @@
         -webkit-animation: header_ani 0.3s cubic-bezier(0.075, 0.82, 0.165, 1); 
         animation-fill-mode: backwards;  
         -webkit-animation-fill-mode: backwards; 
-        grid-column: 2;
-        grid-row: 2/ span 2;       
+        grid-area: hd;      
         grid-template-columns: 1fr;
         grid-template-rows: 5fr 5fr;   
         display: grid;
@@ -98,21 +100,6 @@
     }
             
     
-    
-
-
-
-    .navigation_container { 
-        grid-column: 3;
-        grid-row: 2/ span 2;  
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: minmax(auto, 15%) minmax(auto, 85%);
-        height: 100%;        
-        align-items: center;        
-        grid-gap: 20px;
-    }
-    
     .toolbar_grid{       
         background-image: linear-gradient(#a57541, #8d6031, #916435,#a57541);     
         border-radius: 7px;                            
@@ -128,7 +115,7 @@
         grid-template-rows: repeat(7, auto); 
         grid-template-columns: auto;
         height: 100%;
-
+        grid-area: tbr;
     }    
     
     .toolbar_link {     
@@ -157,23 +144,24 @@
     
     
     #submit_button_container {
+             
+        
         animation: link_ani 0.5s cubic-bezier(.27,1.29,.39,1.07);
         -webkit-animation: link_ani 0.5s cubic-bezier(.27,1.29,.39,1.07);
         animation-delay: 0.1s;
         -webkit-animation-delay: 0.1s;
         animation-fill-mode: backwards;
         -webkit-animation-fill-mode: backwards;
-        grid-row: 1;
-        width: 100%;
-        height: 100%;    
-        height: 100%;
-        display: flex;
-        align-items: flex-start;
-        justify-content: center;
+        grid-area: sb;
+        width: 100%;  
+        min-height: 100px;
+        margin: 0;
+        padding: 0;
     }
 
     #submit_button{
-
+        margin: 0;
+        padding: 0;
         box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, .4);
         border: rgba(0,0,0,0);        
         border-bottom: 4px ridge rgb(165, 209, 146);    
